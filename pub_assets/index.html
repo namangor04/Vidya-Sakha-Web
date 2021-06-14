@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidya-Sakha | Home</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.6.7/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <link rel="icon" sizes="192x192" href="./images/logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="undefined" crossorigin="anonymous">
+    <!-- <script src="./index.js"></script> -->
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" id="home"><img src="images/logo.png" alt="Logo | Return To Home"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="#home">HOME</a>
+                    </li>
+                    <!-- <li>
+                        <a href="login.html">LOGIN</a>
+                    </li> -->
+                    <li>
+                        <!-- <a href="about.html">ABOUT</a> -->
+                        <a href="https://nbrgdevelopers.wixsite.com/website">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="https://nbrgdevelopers.wixsite.com/website/vid-sak-privacy-policy">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="https://nbrgdevelopers.wixsite.com/website/vid-sak-terms-os">Terms</a>
+                    </li>
+                    <li>
+                        <a href="https://nbrgdevelopers.wixsite.com/website/vid-sak-faqs">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>One Stop Educational Platform</h1>
+            <p>Vidya-Sakha, a one stop Educational Platform. We provide a quality user experience with a secure enviroment.
+                <br> Our App has various features, such as INSMOG™, ESOF™, Chat Encryption, Enhanced User Experience
+            </p>
+            <a class="hero-button" href="#intelligent-features">Learn More</a>
+        </div>
+    </section>
+
+    <a id="vidya-sakha-home">
+        <section class="intro-section">
+            <!-- <section> -->
+            <div class="row">
+                <div class="column">
+                    <img src="./images/logo.png" alt="" class="vd-white-image">
+                </div>
+                <div class="column">
+                    <h2 class="h2-pad-white">Vidya-sakha</h2>
+                    <h3 class="h3-pad-white">Towards Digitalization</h3>
+                    <p class="p-center-white">Our first app towards catering to the educational needs of India & The World...,
+                        <br>Vidya-Sakha, as the name suggests , is a helpful app with simple user interface for
+                        <br>teachers and students. It provides a better platform to connect students and Teachers.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </a>
+
+    <!-- Imminent Features Section -->
+
+    <a id="imminent-features">
+        <section class="features-section">
+            <h2 class="h2-pad-white">Some Imminent Features</h2-pad>
+                <!-- Classroom Section  -->
+                <section>
+                    <div class="row-around">
+                        <img src="./images/classroom.svg" alt="" class="sm-svg-icon">
+                        <section>
+                            <p class="p-center-bold-white">Create Classroom, Digitally</p>
+                            <p class="p-center-white">Users can create their own Classrooms and can add students <br>as well as other Teachers. Classrooms help you to organize the workflow... <br>Add or Remove Students and/or Teachers whenever you want without alerting them</p>
+                        </section>
+                    </div>
+                </section>
+
+                <!-- Assignments/Homework Section -->
+                <section>
+                    <div class="row-around">
+                        <img src="./images/assignment.svg" alt="" class="sm-svg-icon">
+                        <section>
+                            <p class="p-center-bold-white">Give Assignments, Homework</p>
+                            <p class="p-center-white">Users can give assignments and homework to the classrooms they have created
+                                <br> or to which they are a part of As a Teacher. Assignments as well as Homework<br> can contain Images and Documents and can be provided with a deadline to submit...
+                            </p>
+                        </section>
+                    </div>
+                </section>
+
+                <!-- Video Lectures -->
+                <section>
+                    <div class="row-around">
+                        <img src="./images/lecture.svg" alt="" class="sm-svg-icon">
+                        <section>
+                            <p class="p-center-bold-white">Video Lectures</p>
+                            <p class="p-center-white">Users can send the Video Lecture links to the classrooms they have created or to <br> the classrooms they are a part of As A Teacher. Users can play YouTube Videos
+                                <br> in Vidya-Sakha itself or choose to play them in YouTube App...
+                            </p>
+                        </section>
+                    </div>
+                </section>
+
+                <!-- Video Lectures -->
+                <section>
+                    <div class="row-around">
+                        <img src="./images/email.svg" alt="" class="sm-svg-icon">
+                        <section>
+                            <p class="p-center-bold-white">Messages, In Class</p>
+                            <p class="p-center-white">Users can message students in the classroom and students can ask doubts
+                                <br> to teachers in the classroom itself. Students/Teachers can attach pictures,<br> documents as per their needs to make understand better.
+                            </p>
+                        </section>
+                    </div>
+                </section>
+        </section>
+    </a>
+
+    <!-- Quick Features -->
+
+    <a id="intelligent-features">
+        <section class="intelligent-features-section">
+            <h2 class="h2-pad-white">Intelligent Features</h2-pad>
+                <div class="row-between">
+                    <section>
+                        <p class="p-center-bold-white">INSMOG™</p>
+                        <img class="rectangle-image" src="https://images.unsplash.com/photo-1568667075040-ad5ebeef16ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80">
+                        <p class="p-center-white">Intelligent Storage Manager Of Garbage</p>
+                        <p class="p-center-white">An Auto Garbage Collector so that our app doesn't fill up your storages!
+                        </p>
+                    </section>
+
+                    <section style="margin-top: 3%;">
+                        <p class="p-center-bold-white">ESOF™</p>
+                        <img class="rectangle-image-two" src="https://images.unsplash.com/photo-1586864387634-2f33030dab41?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                        <p class="p-center-white">Encrypted Storage Of Files</p>
+                        <p class="p-center-white">This Feature stores The Files in an Encrypted Manner<br>so that the files can't be shared without the sender's permissions !
+                        </p>
+                    </section>
+                </div>
+
+                <div class="row-between">
+                    <section style="margin-top: 3%;">
+                        <p class="p-center-bold-white">Encrypted Chats</p>
+                        <img class="rectangle-image" src="https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80">
+                        <p class="p-center-white">Chat Encryption For Better Security</p>
+                        <p class="p-center-white">All Chat that occurs in a Classroom are encrypted so as to add an extra layer of security.
+                        </p>
+                    </section>
+
+                    <section style="margin-top: 3%; margin-bottom: 3%;">
+                        <p class="p-center-bold-white">Beautiful UI</p>
+                        <img class="rectangle-image-two" src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                        <p class="p-center-white">Truly Top-Notch</p>
+                        <p class="p-center-white">We have Simplified and Beautified the UI of our app to make it more User-Friendly !
+                        </p>
+                    </section>
+                </div>
+        </section>
+    </a>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+    </script>
+
+</body>
+
+</html>
