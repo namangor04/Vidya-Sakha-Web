@@ -83,15 +83,15 @@ nav img {
     font-size: 13px;
     text-decoration-line: underline;
     position: relative;
-    margin-top: auto;
-    margin-left: 38%;
+    /* background-color: rgba(240, 128, 128, 0.5); */
+    margin-left: 45%;
     align-self: center;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .center-light-coral-hover-button:hover {
-    background: lightcoral;
+    background: rgb(240, 128, 128);
 }
 
 .text-box h1 {
@@ -200,7 +200,7 @@ nav .fa {
 }
 
 .intro-section {
-    background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.2)), url(./images/background_four.jpeg);
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.3)), url(./images/background_four.jpeg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -276,6 +276,28 @@ nav .fa {
         height: 10%;
         border-radius: 5%;
     }
+    .h2-pad-white {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 5%;
+        margin-right: auto;
+        color: white;
+        font-size: 20px;
+    }
+    .h3-pad-white {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-right: auto;
+        color: white;
+        font-size: 16px;
+    }
+    .p-center-white {
+        text-align: center;
+        font-size: 14px;
+        margin-right: auto;
+        font-weight: 500;
+        color: white;
+    }
     .text-box h1 {
         font-size: 20px;
     }
@@ -302,5 +324,26 @@ nav .fa {
     }
     .nav-links ul {
         padding: 30px;
+    }
+    .center-light-coral-hover-button {
+        color: white;
+        border: 2px solid white;
+        padding: 6px 17px;
+        border-radius: 3%;
+        font-size: 14px;
+        text-decoration-line: underline;
+        position: relative;
+        /* background-color: rgba(240, 128, 128, 0.5); */
+        margin-left: 35%;
+        align-self: center;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .features-section {
+        background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.2)), url(./images/background_one.jpeg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        width: 100%;
     }
 }
